@@ -16,7 +16,7 @@ CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 if CURRENT_DIR not in sys.path:
     sys.path.append(CURRENT_DIR)
 
-from layers_1 import FullyConnectedLayer, ReLULayer, SoftmaxLossLayer
+from layer_1 import FullyConnectedLayer, ReLULayer, SoftmaxLossLayer
 
 possible_paths = [
     '../mnist_data',
