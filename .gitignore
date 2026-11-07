@@ -1,2 +1,36 @@
 data/
 *__pycache__*
+.*
+assignment3/stu_upload
+*.zip
+*.xml
+
+# ---- assignment4 ----
+# 大模型权重（最大 600MB+，超过 GitHub 100MB 单文件上限，用 LFS 或本地生成）
+*.pth
+*.pth.orig
+# 编译产物（容器 Python 3.12 下重新 build_ext 即可）
+*.so
+*.o
+build/
+# 推理/训练输出
+assignment4/**/out/
+
+# ---- assignment1-basics (CS336) ----
+assignment1-basics/.venv/
+assignment1-basics/.pytest_cache/
+assignment1-basics/.mypy_cache/
+assignment1-basics/.ruff_cache/
+assignment1-basics/.ipynb_checkpoints/
+assignment1-basics/scripts/__pycache__/
+assignment1-basics/tests/__pycache__/
+assignment1-basics/test_python_files/__pycache__/
+assignment1-basics/.DS_Store
+assignment1-basics/data/output/train/*.bin
+assignment1-basics/data/output/valid/*.bin
+assignment1-basics/csgofiles/*.out
+assignment1-basics/csgofiles/*.prof
+assignment1-basics/executed.md
+assignment1-basics/*.pkl
+assignment1-basics/*.gz
+assignment1-basics/*.html
