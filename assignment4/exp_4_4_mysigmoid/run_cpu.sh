@@ -1,3 +1,4 @@
-rm ./out/cpu/*
+cd "$(dirname "$0")"
+rm -f ./out/cpu/*
 
-python ./stu_upload/evaluate_cpu.py
+cd ./stu_upload && python ./evaluate_cpu.py
